@@ -12,10 +12,8 @@ String greetEveryone() => 'Hello everyone!';
 
 // Una función que suma dos números. El segundo número es opcional.
 // Si no se proporciona el segundo número, se asume como 0 por defecto.
-int addTwoNumbers(int a, [int? b]) {
-  // Si b no se proporciona (es null), se establece a 0
-  b = b ?? 0;
-
+int addTwoNumbers(int a, [int b = 0]) {
+    
   // Devuelve la suma de a y b
   return a + b;
 }
