@@ -3,7 +3,7 @@ void main() {
 
   print( wolverine );
   print( wolverine.name );
-  print( wolverine.power );
+  print( wolverine.power );  
 }
 
 class Hero{
